@@ -12,7 +12,7 @@ Contributing
 License
 
 ## Demo
-You can try out the game here (https://lishinvs.github.io/Simon-gam)
+You can try out the game here (https://lishinvs.github.io/Simon-game/)
 
 ## Features
 Interactive UI with colorful buttons.
