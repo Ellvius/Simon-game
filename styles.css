@@ -1,42 +1,54 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
-}
-
-.container {
     text-align: center;
-}
-
-.game-board {
-    display: grid;
-    grid-template-columns: repeat(2, 100px);
-    gap: 10px;
-    margin: 20px auto;
-}
-
-.color {
-    width: 100px;
-    height: 100px;
-    cursor: pointer;
-    opacity: 0.7;
-}
-
-#green { background-color: green; }
-#red { background-color: red; }
-#yellow { background-color: yellow; }
-#blue { background-color: blue; }
-
-.color.active {
-    opacity: 1;
-}
-
-#start-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-}
+    background-color: #011F3F;
+  }
+  
+  #level-title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    margin:  5%;
+    color: #FEF2BF;
+  }
+  
+  .container {
+    display: block;
+    width: 50%;
+    margin: auto;
+  
+  }
+  
+  .btn {
+    margin: 25px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+  }
+  
+  .game-over {
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+  
