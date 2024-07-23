@@ -3,16 +3,16 @@
 Welcome to the Simon Game! This is a classic memory game where players must repeat a sequence of colors in the correct order. The sequence gets progressively longer and more challenging as the game continues.
 
 ## Table of Contents
-- Demo
-- Features
-- Technologies Used
-- Installation
-- How to Play
-- Contributing
-- License
+- [Demo](#demo)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [How to Play](#how-to-play)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Demo
-You can try out the game here (https://lishinvs.github.io/Simon-game/)
+You can try out the game [here](https://lishinvs.github.io/Simon-game/).
 
 ## Features
 - Interactive UI with colorful buttons.
