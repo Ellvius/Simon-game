@@ -3,40 +3,46 @@
 Welcome to the Simon Game! This is a classic memory game where players must repeat a sequence of colors in the correct order. The sequence gets progressively longer and more challenging as the game continues.
 
 ## Table of Contents
-Demo
-Features
-Technologies Used
-Installation
-How to Play
-Contributing
-License
+- Demo
+- Features
+- Technologies Used
+- Installation
+- How to Play
+- Contributing
+- License
 
 ## Demo
 You can try out the game here (https://lishinvs.github.io/Simon-game/)
 
 ## Features
-Interactive UI with colorful buttons.
-Increasing sequence complexity.
-Audio feedback for each button press.
-Visual feedback for correct and incorrect sequences.
-Score tracking.
+- Interactive UI with colorful buttons.
+- Increasing sequence complexity.
+- Audio feedback for each button press.
+- Visual feedback for correct and incorrect sequences.
+- Score tracking.
 
 ## Technologies Used
-HTML5
-CSS3
-JavaScript
+- HTML5
+- CSS3
+- JavaScript
 
 ## Installation
 To run this project locally, follow these steps:
 
-### Clone the repository:
+**Clone the repository:**
+```bash
     git clone https://github.com/your-username/simon-game.git
+```
 
-### Navigate to the project directory:
+**Navigate to the project directory:**
+```bash
     cd simon-game
+```
 
-### Open index.html in your preferred browser:
+**Open index.html in your preferred browser:**
+```bash
     open index.html
+```
 
 ## How to Play
 1. Press the any key to begin the game.
