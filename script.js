@@ -6,6 +6,12 @@ var started = false;
 
 // Function to start the game
 function startGame() {
+  $("body").removeClass("end-body");
+  $("h1").show();
+  $(".end-container")
+    .addClass("container")
+    .removeClass("end-container");
+  $(".scorecard").remove();
   if (!started) {
     $("h1").html("Level " + level);
     nextSequence();
@@ -72,8 +78,13 @@ function checkAnswer(currentLevel) {
       }, 1500);
     }
   } else {
+    $("body").addClass("end-body");
     playSound("wrong");
-    $("h1").html('<div class="start">Restart</div>');
+    $("h1").hide();
+    $(".container")
+    .addClass("end-container")
+    .removeClass("container")
+    .after('<div class = "scorecard"><h1>Game Over ! <br> Your Score is ' + level + '</h1><h1><div class="start">Restart</div></h1></div>');
     $("body").addClass("game-over");
     setTimeout(function () {
       $("body").removeClass("game-over");
