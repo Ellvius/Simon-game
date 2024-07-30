@@ -84,7 +84,7 @@ function checkAnswer(currentLevel) {
     $(".container")
     .addClass("end-container")
     .removeClass("container")
-    .after('<div class = "scorecard"><h1>Game Over ! <br> Your Score is ' + level + '</h1><h1><div class="start">Restart</div></h1></div>');
+    .after('<div class = "scorecard"><h1>Game Over ! <br> Your Score is ' + (level-1) + '</h1><h1><div class="start">Restart</div></h1></div>');
     $("body").addClass("game-over");
     setTimeout(function () {
       $("body").removeClass("game-over");
