@@ -11,7 +11,8 @@ function startGame() {
   $(".end-container")
     .addClass("container")
     .removeClass("end-container");
-  $(".scorecard").remove();
+  $(".scorecard")
+    .addClass("hide");
   if (!started) {
     $("h1").html("Level " + level);
     nextSequence();
@@ -19,7 +20,7 @@ function startGame() {
   }
 }
 
-//starting the game
+// Starting the game
 $(".start").click(startGame);
 
 // User generated button clicks
@@ -81,16 +82,18 @@ function checkAnswer(currentLevel) {
     $("body").addClass("end-body");
     playSound("wrong");
     $("h1").hide();
+    $(".restart")
+      .removeClass("hide");
     $(".container")
-    .addClass("end-container")
-    .removeClass("container")
-    .after('<div class = "scorecard"><h1>Game Over ! <br> Your Score is ' + (level-1) + '</h1><h1><div class="start">Restart</div></h1></div>');
+      .addClass("end-container")
+      .removeClass("container")
+      .after('<div class="scorecard"><h1>Game Over! <br> Your Score is ' + (level - 1) + '</h1><h1><div class="restart">Restart</div></h1></div>');
     $("body").addClass("game-over");
     setTimeout(function () {
       $("body").removeClass("game-over");
     }, 200);
     startOver();
-    $(".start").click(startGame); // Re-attach event listener to the restart button
+    $(".restart").click(startGame); // Re-attach event listener to the restart button
   }
 }
 

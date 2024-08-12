@@ -12,7 +12,8 @@ body {
     justify-content: center;
   }
   
-  .start {
+  .start,
+  .restart {
     background-color: #FEF2BF;
     color: #011f3f;
     width: 23rem;
@@ -97,4 +98,8 @@ body {
     display: flex;
     align-items: center;
     margin-top: 4rem;
+  }
+  
+  .hide {
+    display: none;
   }
