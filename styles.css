@@ -103,3 +103,39 @@ body {
   .hide {
     display: none;
   }
+
+  @media (max-width: 600px) {
+    body {
+      height: 100vh;
+      margin: 0%;
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+      font-size: 10px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      width: 80%;
+      padding: 10px;
+    }
+
+
+    .start,
+    .restart{
+      width: 80%;
+      border-radius: 25px;
+      padding: 2px;
+      border-width: 2px solid black;
+      margin-bottom: 40px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 5px;
+      height: 130px;
+      width: 130px;
+    }
+  }
+  
