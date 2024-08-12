@@ -12,7 +12,7 @@ Welcome to the Simon Game! This is a classic memory game where players must repe
 - [License](#license)
 
 ## Demo
-You can try out the game [here](https://lishinvs.github.io/Simon-game/).
+You can try out the game [here](https://ellvius.github.io/Simon-game/).
 
 ## Features
 - Interactive UI with colorful buttons.
