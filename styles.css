@@ -121,16 +121,26 @@ body {
       padding: 10px;
     }
 
+    .hidecontainer{
+      display: none;
+    }
+
+    #level-title {
+      margin-bottom: 80px;
+    }
 
     .start,
     .restart{
-      width: 80%;
+      width: 14rem;
       border-radius: 25px;
       padding: 2px;
       border-width: 2px solid black;
       margin-bottom: 40px;
     }
 
+    .end-body{
+      margin-top: 0%;
+    }
     .btn {
       display: inline-block;
       margin: 5px;

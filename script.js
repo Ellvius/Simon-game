@@ -10,6 +10,7 @@ function startGame() {
   $("h1").show();
   $(".end-container")
     .addClass("container")
+    .removeClass("hidecontainer")
     .removeClass("end-container");
   $(".scorecard")
     .addClass("hide");
@@ -86,8 +87,9 @@ function checkAnswer(currentLevel) {
       .removeClass("hide");
     $(".container")
       .addClass("end-container")
+      .addClass("hidecontainer")
       .removeClass("container")
-      .after('<div class="scorecard"><h1>Game Over! <br> Your Score is ' + (level - 1) + '</h1><h1><div class="restart">Restart</div></h1></div>');
+      .after('<div class="scorecard"><h1>GAME OVER! <br> Your Score is ' + (level - 1) + '</h1><h1><div class="restart">Restart</div></h1></div>');
     $("body").addClass("game-over");
     setTimeout(function () {
       $("body").removeClass("game-over");
