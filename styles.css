@@ -126,16 +126,22 @@ body {
     }
 
     #level-title {
+      font-family: 'Roboto', sans-serif;
       margin-bottom: 80px;
     }
 
     .start,
     .restart{
+      font-family: 'Roboto', sans-serif;
       width: 14rem;
       border-radius: 25px;
       padding: 2px;
       border-width: 2px solid black;
       margin-bottom: 40px;
+    }
+
+    h1{
+      font-family: 'Roboto', sans-serif;
     }
 
     .end-body{
